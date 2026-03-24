@@ -95,7 +95,6 @@ BiotinScore is calculated as the sum of Δsignal values within a window spanning
 
 Biotin-labeled reads exhibit sustained positive Δsignal values across this region due to consecutive biotin incorporation and extended 3′ soft-clipped regions.
 
----
 
 ## Output
 
@@ -104,13 +103,12 @@ The pipeline generates:
 - Per-position CSV files containing coverage and biotin-positive hit counts  
 - Per-read XLSX file containing BiotinScore values and classification results  
 
----
 
 ## Example data
 
 The repository includes example λ DNA data (POD5 and FASTA) and corresponding output files generated from the example pipeline.
 
----
+
 
 ## Notes
 
@@ -118,13 +116,11 @@ The repository includes example λ DNA data (POD5 and FASTA) and corresponding o
 - This table provides expected normalized signal values for each k-mer and is used for ONT-predicted baseline estimation.  
 - This enables control sequencing–free analysis.  
 
----
 
 ## License
 
 MIT License
 
----
 
 ## Third-party dependency
 
