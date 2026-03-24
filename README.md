@@ -49,7 +49,7 @@ Run the example pipeline:
 
 ```bash
 bash run/run_example.sh
-
+```
 
 This script performs:
 
