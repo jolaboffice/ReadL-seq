@@ -127,4 +127,3 @@ MIT License
 This repository uses and modifies functions from Remora (Oxford Nanopore Technologies),  
 which is distributed under the ONT Public Licence.
 
----
