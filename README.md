@@ -106,6 +106,15 @@ The pipeline generates:
 
 The repository includes example λ DNA data (POD5 and FASTA) and corresponding output files generated from the example pipeline.
 
+## Analysis scripts
+
+Additional scripts for downstream analysis are provided in the `scripts/analysis` directory:
+
+- `detect_signal_drop.py`: per-position signal drop detection using threshold-based methods  
+- `roc_curve.py`: ROC analysis for BiotinScore threshold optimization  
+- `hg002_analysis.py`: genome-wide analysis of DNA damage distribution in human data  
+
+These scripts were used for generating figures and validation analyses in the study and are not required for running the core pipeline.
 
 ## Notes
 
