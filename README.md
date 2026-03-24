@@ -2,7 +2,7 @@
 
 Single-molecule DNA lesion mapping via nanopore signal-drop detection
 
----
+
 
 ## Overview
 
@@ -11,7 +11,7 @@ DNA lesions are converted into biotin-labeled tracts through polymerase-mediated
 
 Signal deviations and alignment features are integrated into a cumulative metric (BiotinScore), enabling robust identification of DNA damage sites from individual reads without amplification or ensemble averaging.
 
----
+
 
 ## Installation
 
@@ -23,7 +23,7 @@ Required tools:
 - samtools
 - Python (numpy, pandas)
 
----
+
 
 ## Remora modification
 
@@ -41,7 +41,6 @@ scripts/remora_patch/data_chunks.py
 
 Remora is not included in this repository and must be installed separately.
 
----
 
 ## Usage
 
@@ -57,7 +56,7 @@ This script performs:
 2. Alignment (minimap2)  
 3. BiotinScore-based analysis using `biotin_ssb_pipeline.py`  
 
----
+
 
 ## Method summary
 
@@ -71,7 +70,6 @@ BiotinScore is calculated as the sum of Δsignal values within a window spanning
 
 Biotin-labeled reads exhibit sustained positive Δsignal values across this region due to consecutive biotin incorporation and extended 3′ soft-clipped regions.
 
----
 
 ## Output
 
@@ -80,36 +78,32 @@ The pipeline generates:
 - Per-position CSV files containing coverage and biotin-positive hit counts  
 - Per-read XLSX file containing BiotinScore values and classification results  
 
----
 
 ## Example data
 
 The repository includes example λ DNA data (POD5 and FASTA) and corresponding output files generated from the example pipeline.
 
----
 
 ## Notes
 
 - The file `resources/levels.txt` contains the ONT k-mer signal level table used for baseline estimation.  
 - This enables control sequencing–free analysis.  
 
----
 
 ## License
 
 MIT License
 
----
 
 ## Third-party dependency
 
 This repository uses and modifies functions from Remora (Oxford Nanopore Technologies),  
 which is distributed under the ONT Public Licence.
 
----
+
 
 ## Citation
 
 Choe et al., *ReadL-seq: single-molecule DNA lesion mapping via nanopore signal-drop detection*
 
----
+
