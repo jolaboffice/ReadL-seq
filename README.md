@@ -33,11 +33,11 @@ After installing Remora:
 
 1. Locate `io.py` in the Remora installation directory and **replace the corresponding function** with the version provided in:
 
-  `scripts/remora_patch/io.py`
+    `scripts/remora_patch/io.py`
 
 2. Locate `data_chunks.py` in the Remora installation directory and **insert the function** provided in:
 
-  `scripts/remora_patch/data_chunks.py`
+    `scripts/remora_patch/data_chunks.py`
 
 Remora is not included in this repository and must be installed separately.
 
@@ -74,13 +74,11 @@ These scripts perform signal extraction, baseline generation, Δsignal calculati
 The stepwise workflow primarily reflects the experimental baseline approach, but can also be used with an ONT-predicted baseline if provided in the same format as the output of `mean_sigma.py`.
 
 
-
 ### Integrated workflow
 
 - biotin_ssb_pipeline.py  
 
 This script performs the full BiotinScore pipeline in a single step using the ONT-predicted baseline derived from the Remora k-mer level table.
-
 
 
 ## Method summary
@@ -109,7 +107,6 @@ The pipeline generates:
 The repository includes example λ DNA data (POD5 and FASTA) and corresponding output files generated from the example pipeline.
 
 
-
 ## Notes
 
 - The file `resources/levels.txt` contains the ONT k-mer signal level table obtained from Remora.  
@@ -120,7 +117,6 @@ The repository includes example λ DNA data (POD5 and FASTA) and corresponding o
 ## License
 
 MIT License
-
 
 ## Third-party dependency
 
