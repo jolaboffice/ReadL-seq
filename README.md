@@ -73,7 +73,7 @@ These scripts perform signal extraction, baseline generation, Δsignal calculati
 
 The stepwise workflow primarily reflects the experimental baseline approach, but can also be used with an ONT-predicted baseline if provided in the same format as the output of `mean_sigma.py`.
 
----
+
 
 ### Integrated workflow
 
@@ -81,7 +81,7 @@ The stepwise workflow primarily reflects the experimental baseline approach, but
 
 This script performs the full BiotinScore pipeline in a single step using the ONT-predicted baseline derived from the Remora k-mer level table.
 
----
+
 
 ## Method summary
 
