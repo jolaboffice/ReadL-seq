@@ -33,11 +33,11 @@ After installing Remora:
 
 1. Locate `io.py` in the Remora installation directory and replace the corresponding function with the version provided in:
 
-scripts/remora_patch/io.py
+`scripts/remora_patch/io.py`
 
 2. Locate `data_chunks.py` in the Remora installation directory and insert the function provided in:
 
-scripts/remora_patch/data_chunks.py
+`scripts/remora_patch/data_chunks.py`
 
 Remora is not included in this repository and must be installed separately.
 
